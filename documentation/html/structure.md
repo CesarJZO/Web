@@ -1,28 +1,25 @@
-## Structure
+# Structure
 
-### Basic structure
+## Content divisor
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Metadata -->
-  </head>
-  <body>
-    <!-- Content -->
-  </body>
-</html>
-```
-
-### id attribute
+It can group content blocks, it cannot do nothing by itself
 
 ```html
-<a href="#something">Go to something</a>
-...
-<h3 id="something">I'm a header</h3>
+<div>
+  <!-- blah blah blah -->
+</div>
 ```
 
-### Span
+Using the `class` attribute, this tag can have assigned properties
+
+```html
+<div class="floating_article">
+  <h1>Title</h1>
+  <p>Mucho texto</p>
+</div>
+```
+
+## Content span
 
 Is a generic inline container for phrasing content
 
@@ -30,4 +27,22 @@ Is a generic inline container for phrasing content
 Add the <span class="ingredient">basil</span>
 and <span class="ingredient">garlic</span> to
 a blender and blend into a paste.
+```
+
+## Lists
+
+A unordered list uses a `li` tag to put list items, same case in the ordered list
+
+```html
+<ul>
+  <li>Item</li>
+  <li>Other item</li>
+</ul>
+```
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
 ```

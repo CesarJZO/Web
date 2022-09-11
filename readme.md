@@ -1,6 +1,8 @@
 # My Web docs
 
-Here I'll write all the examples and experiments I make.
+Here I'll write my learning progress on web development, including all examples and experiments I make.
+
+Also, I'm gonna document the structure, commonly used **tags**, common practices and tutorials and examples I find.
 
 ## Documentation
 
@@ -18,5 +20,6 @@ Here I'll write all the examples and experiments I make.
 
 ## Sources
 
+- Mozilla [documentation](https://developer.mozilla.org/en-US/)
 - Bro Code's web dev all in 1 [tutorial](https://youtube.com/playlist?list=PLZPZq0r_RZONI8lXCwCVoebOLkqftkH_7)
 - Magic menu navigation indicator [tutorial](https://youtu.be/ArTVfdHOB-M)
