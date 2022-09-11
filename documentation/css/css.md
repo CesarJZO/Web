@@ -35,3 +35,40 @@ div.menu-bar li:hover > ul {
 ## Info
 
 - It's called *Cascade* because if there's another selector of the same tag, it will override its properties
+
+## General structure
+
+```css
+/* General */
+body {
+  margin: 30px;
+}
+p {
+  font-size: 18px;
+}
+
+/* Typographic styles */
+.sample {
+  font-size: 24px;
+}
+
+p.sample {
+  font-size: 12px;
+}
+
+/* Heading */
+.navigation {
+  /* attributes */
+}
+
+.logo { }
+
+/* Structure */
+.container { }
+
+/* Foot */
+.foot { }
+
+/* Page */
+.about { }
+```
