@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgoldenrod;
+}
+
+div {
+    background: #3a5062;
+    width: auto;
+    margin: 20px 15px;
+}
+
+.little {
+    height: 72px;
+}
+
+.big {
+    height: 192px;
+}
+
+.column {
+    background-color: darkgoldenrod;
+    overflow: hidden;
+}
+
+.boxes {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: calc(50% - 8px);
+    float: left;
+    height: 192px;
+}
+
+.left {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.right {
+    margin-right: 0%;
+}

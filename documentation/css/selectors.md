@@ -10,7 +10,7 @@ tag {
 
 ## Class selector
 
-In html, a class is defined with the `class` attribute
+In `html`, a class is defined with the `class` attribute
 
 ```html
 <div class="article">
@@ -53,7 +53,7 @@ Going even more deeply and specific, we can affect only a tag inside other tag w
 
 ## ID selector
 
-To use an `id` from an html file, we can reference it by preceding the identifier with an `#`
+To use an `id` from an `html` file, we can reference it by preceding the identifier with an `#`
 
 ```css
 #identifier {

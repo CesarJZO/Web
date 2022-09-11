@@ -16,10 +16,10 @@
 
 ### Where
 
-- `<!DOCTYPE html>` It's used to render an html file properly
+- `<!DOCTYPE html>` It's used to render an `html` file properly
 - `<html>` Represents the root of a document
 - `<head>` Contains machine-readable information about the document
-- `<body>` Represents the content of an html document
+- `<body>` Represents the content of an `html` document
 
 ## Index
 

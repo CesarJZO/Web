@@ -2,7 +2,7 @@
 
 ## Class
 
-Assigns a class to an html element
+Assigns a class to an `html` element
 
 ```html
 <div class="classname"></div>
@@ -10,7 +10,7 @@ Assigns a class to an html element
 
 ## Identifier
 
-Assigns an identifier to an html element, only one per element.
+Assigns an identifier to an `html` element, only one per element.
 
 ```html
 <div id="identifier"></div>
