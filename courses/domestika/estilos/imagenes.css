@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 32px;
+    background-image: url(../imagenes/dirt.png);
+    /* background-repeat: no-repeat;
+    background-position: right top;
+    background-position: right 20px bottom 30px;
+    background: hotpink url(./dirt.png) no-repeat right; */
+}
+
+.test {
+    width: 400px;
+    height: 600px;
+    border: 3px solid antiquewhite;
+
+    background-image: url(../imagenes/me.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-size: 100% auto;
+    background-size: cover;
+    background-size: contain;
+
+    background-position: center;
+}
+
+div.rounded {
+    background-image: url(../imagenes/me.png);
+    left: 32px;
+    right: 32px;
+    height: 380px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}

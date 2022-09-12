@@ -16,6 +16,7 @@ Also, I'm gonna document the structure, commonly used **tags**, common practices
 
 ## Resources
 
+- [Google fonts](https://fonts.google.com/) fonts and icons.
 - [ionicons](https://ionic.io/ionicons) svg icons.
 
 ## Sources
