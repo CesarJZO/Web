@@ -26,9 +26,8 @@ body {
 
 div.rounded {
     background-image: url(../imagenes/me.png);
-    left: 32px;
-    right: 32px;
-    height: 380px;
+    width: 400px;
+    height: 400px;
     background-size: 100% auto;
     background-repeat: no-repeat;
     border-radius: 20px;
