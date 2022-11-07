@@ -10,6 +10,8 @@ Also, I'm gonna document the structure, commonly used **tags**, common practices
 - [CSS](documentation/css/css.md)
 - [JavaScript](documentation/javascript/javascript.md)
 
+![Screenshot](./images/screenshot.png)
+
 ## Examples
 
 - [Magic navigation menu indicator](./coolstuff/navigationmenu/index.html) by [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers/videos)
