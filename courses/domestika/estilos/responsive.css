@@ -1,0 +1,26 @@
+div {
+    background-color: darkslateblue;
+    float: left;
+    margin: 24px 16px;
+    padding: 20px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.364);
+}
+
+.main {
+    width: calc(60% - 32px);
+    min-height: 20em;
+}
+
+.secondary {
+    width: calc(40% - 32px);
+    min-height: 25em;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .main,
+    .secondary {
+        width: calc(100% - 32px);
+        float: none;
+    }
+}

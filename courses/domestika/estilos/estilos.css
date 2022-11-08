@@ -44,3 +44,15 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    background: #202024;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #36393f;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #414855;
+}
