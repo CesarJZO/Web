@@ -1,5 +1,6 @@
 :root {
     background-color: #b88509;
+    --gap: 16px;
 }
 
 div {
@@ -10,7 +11,7 @@ body {
     margin: 32px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap);
 }
 
 .box {
@@ -19,7 +20,7 @@ body {
 }
 
 .small {
-    height : 128px;
+    height: 128px;
 }
 
 .big {
@@ -33,7 +34,7 @@ body {
 .multiple {
     display: flex;
     width: 100%;
-    gap: 16px;
+    gap: var(--gap);
 }
 
 .horizontal {
