@@ -1,43 +1,47 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: darkgoldenrod;
+:root {
+    background-color: #b88509;
 }
 
 div {
-    background: #3a5062;
-    width: auto;
-    margin: 20px 15px;
+    border-radius: 8px;
 }
 
-.little {
-    height: 72px;
+body {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box {
+    background-color: #3a4f62;
+    width: 100%;
+}
+
+.small {
+    height : 128px;
 }
 
 .big {
-    height: 192px;
+    height: 256px;
 }
 
-.column {
-    background-color: darkgoldenrod;
-    overflow: hidden;
+.inner {
+    height: 100%;
 }
 
-.boxes {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    width: calc(50% - 8px);
-    float: left;
-    height: 192px;
+.multiple {
+    display: flex;
+    width: 100%;
+    gap: 16px;
 }
 
-.left {
-    margin-left: 0%;
-    margin-right: 0%;
+.horizontal {
+    display: inherit;
+    flex-direction: row;
 }
 
-.right {
-    margin-right: 0%;
+.vertical {
+    display: inherit;
+    flex-direction: column;
 }
